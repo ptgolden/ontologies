@@ -199,7 +199,7 @@ export, terms can be accessed directly:
 ```javascript
 import schema from '@ontologies/schema'
 
-console.log(schema.yield) // NamedNode(http://schema.org/name)
+console.log(schema.yield) // NamedNode(http://schema.org/yield)
 ```
 
 When using the named exports, if a term collides with an [ES 5/6 reserved keyword](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#Keywords)
